@@ -1,0 +1,8 @@
+.container-fluid .header1 {}
+
+
+.header-1 {
+    background-color: var(--mastercolor);
+    height: 25vh;
+    border-radius: 100px;
+}

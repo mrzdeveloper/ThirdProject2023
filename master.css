@@ -1,0 +1,32 @@
+@font-face {
+    font-family: farsi;
+    src: url(./font/iranyekanwebbold.ttf);
+}
+
+@font-face {
+    font-family: english;
+    src: url(./font/ChunkFive-Regular.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.mas {
+    font-family: english;
+}
+
+body {
+    font-family: FarsiFont;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --mastercolor: black;
+    --submaincolor: rgb(219, 194, 52);
+}
