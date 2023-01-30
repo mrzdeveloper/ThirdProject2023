@@ -1,55 +1,22 @@
 @font-face {
-    font-family: farsi;
-    src: url(./font/iranyekanwebbold.ttf);
-}
-
-@font-face {
-    font-family: en2;
-    src: url(./font/ChunkFive-Regular.otf);
-}
-
-@font-face {
-    font-family: en;
+    font-family: myfont;
     src: url(./font/InterRegular.otf);
 }
 
-
 * {
+    /* border: 1px solid rebeccapurple; */
     box-sizing: border-box;
-}
-
-.mas {
-    font-family: en2;
-}
-
-.mas2 {
-    font-family: en;
+    list-style: none;
+    font-family: myfont;
+    text-decoration: none;
 }
 
 body {
-    font-family: FarsiFont;
-    font-size: 16px;
+    font-size: 26px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-}
 
-:root {
-    --mastercolor: black;
-    --submaincolor: rgb(219, 194, 52);
-}
-
-.mypic {
-    margin-top: 10px;
-    width: 50px;
-    height: 70px;
-    background-color: black;
-    border-radius: 50px 50px 20px 20px;
-}
-
-.mypic:hover {
-    border-radius: 20px 20px 50px 50px;
-    background-color: rebeccapurple;
-    transition:linear 0.3s;
 }
