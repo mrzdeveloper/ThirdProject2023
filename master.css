@@ -4,8 +4,13 @@
 }
 
 @font-face {
-    font-family: english;
+    font-family: en2;
     src: url(./font/ChunkFive-Regular.otf);
+}
+
+@font-face {
+    font-family: en;
+    src: url(./font/InterRegular.otf);
 }
 
 
@@ -14,7 +19,11 @@
 }
 
 .mas {
-    font-family: english;
+    font-family: en2;
+}
+
+.mas2 {
+    font-family: en;
 }
 
 body {
@@ -29,4 +38,18 @@ a {
 :root {
     --mastercolor: black;
     --submaincolor: rgb(219, 194, 52);
+}
+
+.mypic {
+    margin-top: 10px;
+    width: 50px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50px 50px 20px 20px;
+}
+
+.mypic:hover {
+    border-radius: 20px 20px 50px 50px;
+    background-color: rebeccapurple;
+    transition:linear 0.3s;
 }
