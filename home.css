@@ -160,43 +160,143 @@
     font-size: 30em;
 }
 
+/* start main section 2 */
+.titel-main {
+    margin: 0 150px;
 
-@media only screen and (max-width: 750px) {
-    .header .bottom-header .bottom-centerMenu a {
-        display: none;
-    }
 
-    .header .top-header .top-left {
-        justify-content: space-between;
-    }
+}
 
-    .header .top-header .top-right i {
-        display: none;
+.titel-main h1 {
+    font-size: 3.2em;
+    text-align: center;
+    margin-top: 0;
+}
 
-    }
+.titel-main .ms2 {
+    font-size: 1.2em;
+    text-align: center;
+}
 
-    .header .bottom-header .bottom-left {
-        font-size: .5em;
-        margin-left: 0px;
-        margin-top: 0px;
+/* .......................start card section 3 */
+.cardpostal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    }
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid red;
+    margin: 20px;
+}
+.card1 {
+    border: 1px solid red;
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    position: relative;
 
-    .header .bottom-header .bottom-left i {
-        font-size: 2em;
-    }
+}
 
-    .header .bottom-header .bottom-right button {
-        font-size: 12px;
-        width: 100px;
-    }
+.card1 .btn {
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: -1px;
+    border: none;
+    background-color: rgb(224, 193, 16);
 
-    .header .bottom-header .bottom-right button i {
-        font-size: 20px;
-    }
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-info .icons {
+    font-size: 4em;
+    margin-top: 20px;
+    color: darkgoldenrod;
+}
+
+.card-info .title1 {
+    font-size: 1.8em;
+    color: darkgoldenrod;
+}
+
+.card-info h1 {
+    font-size: 3em;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.card-info sub {
+    font-size: .2em;
+    color: darkgoldenrod;
+}
+
+.card-info .title2 {
+    margin-top: 5px;
+    font-size: 1em;
+    color: darkgoldenrod;
 }
 
 
-.mz {
-    background-color: var(--mastercolor);
+.endtitle {
+    font-size: .8em;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 50px;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 5px;
+    background-color: black;
+}
+
+.endtitle .title3 {
+    color: rgb(216, 214, 214);
+    padding-left: 20px;
+}
+
+.endtitle .price-title {
+    color: darkgoldenrod;
+    margin-left: 90px;
+    padding-right: 20px;
+}
+
+.buy-btn {
+    font-weight: bold;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
+}
+
+.buy-btn:hover {
+    background-color: rgb(8, 6, 9);
+    color: gold;
+    border: 1px solid gold;
 }

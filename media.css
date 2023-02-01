@@ -1,0 +1,46 @@
+@media only screen and (max-width: 992px) {
+    .header .bottom-header .bottom-centerMenu a {
+        display: none;
+    }
+
+    .header .top-header .top-left {
+        justify-content: space-between;
+    }
+
+    .header .top-header .top-right i {
+        display: none;
+
+    }
+
+    .header .bottom-header .bottom-left {
+        font-size: .5em;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .header .bottom-header .bottom-left i {
+        font-size: 2em;
+    }
+
+    .header .bottom-header .bottom-right button {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .header .bottom-header .bottom-right button i {
+        font-size: 20px;
+    }
+    .cardpostal{
+        display: block;
+      
+    }
+    .titel-main{
+        margin: 20px;
+        text-align: start;
+    }
+    .titel-main h1{
+        font-size: 2em;
+        font-weight: bold;
+    }
+}

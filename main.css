@@ -1,10 +1,10 @@
 @font-face {
     font-family: myfont;
-    src: url(./font/InterRegular.otf);
+    src: url(./font/InterRegular.ttf);
 }
 
 * {
-    /* border: 1px solid rebeccapurple; */
+    /* border: 1px solid red; */
     box-sizing: border-box;
     list-style: none;
     font-family: myfont;
