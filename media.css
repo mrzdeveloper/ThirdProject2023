@@ -13,20 +13,23 @@
     }
 
     .header .bottom-header .bottom-left {
-        font-size: .5em;
-        margin-left: 0px;
-        margin-top: 0px;
+        font-size: 0.5em;
 
     }
 
     .header .bottom-header .bottom-left i {
         font-size: 2em;
+      margin: 0;
+
     }
 
-    .header .bottom-header .bottom-right button {
+    /* .header .bottom-header .bottom-right button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         font-size: 12px;
         width: 100px;
-    }
+    } */
 
     .header .bottom-header .bottom-right button i {
         font-size: 20px;
@@ -43,4 +46,14 @@
         font-size: 2em;
         font-weight: bold;
     }
+    .header .bottom-header .bottom-right .header-btn {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+
+
+    
 }

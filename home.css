@@ -112,7 +112,7 @@
 
 .header .bottom-header .bottom-right .header-btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 
 
@@ -162,6 +162,24 @@
 
 /* start main section 2 */
 .titel-main {
+    margin: 200px 150px;
+
+
+}
+
+.titel-main h1 {
+    font-size: 3.2em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.titel-main .ms2 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+.titel-main {
     margin: 0 150px;
 
 
@@ -178,14 +196,16 @@
     text-align: center;
 }
 
+
 /* .......................start card section 3 */
 .cardpostal {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 98%;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,9 +213,10 @@
     border: 1px solid red;
     margin: 20px;
 }
+
 .card1 {
     border: 1px solid red;
-    
+
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
@@ -282,7 +303,7 @@
 .buy-btn {
     font-weight: bold;
     background-color: goldenrod;
-    color: black;
+    color: rgb(213, 44, 44);
     border-radius: 10px;
     width: 100px;
     height: 35px;
@@ -299,4 +320,251 @@
     background-color: rgb(8, 6, 9);
     color: gold;
     border: 1px solid gold;
+}
+
+/* ..........................................pack */
+.pakage .pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 20px 200px;
+}
+
+.pakage .pack .title-pack {}
+
+.pakage .pack .star-icons {
+    margin-bottom: 10px;
+    top: 0px;
+}
+
+.pakage .pack .text-pack {
+    text-align: center;
+    font-size: .8em;
+
+}
+
+.pakage .pack .pack-btn {
+    background-color: goldenrod;
+    color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* .............................section C */
+.reffral-banner {
+    padding: 20px 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+.reffral-banner h1 {
+    color: black;
+}
+
+.reffral-banner span {
+    text-align: center;
+    font-size: .8em;
+
+}
+
+.reffral-banner button {
+
+    background-color: rgb(0, 0, 0);
+    color: rgba(197, 177, 0, 0.945);
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.reffral-banner {}
+
+/* ...................................start chart */
+.chartSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    margin: 50px 100px;
+    border-radius: 15px;
+    padding: 80px 50px;
+    height: 500px;
+}
+
+.box {}
+
+.box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    padding: 4px 8px;
+}
+
+.box input {
+
+    padding: 3px 0;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.box .box-btn {
+
+    background-color: goldenrod;
+    color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.box .box-btn:hover {
+    background-color: blueviolet;
+}
+
+.leftsec img {
+    width: 450px;
+    height: 300px;
+}
+
+
+/* ...............................footer */
+.footer-page {
+    position: relative;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 25px 100px;
+    margin-top: 150px;
+
+}
+
+.sec1 {
+    margin-left: 30px;
+}
+
+.sec1 a {
+    color: darkgoldenrod;
+    margin-top: 5px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.sec1 h1 {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sec1 i {
+    margin-left: 5px;
+    padding: 5px;
+    color: darkgoldenrod;
+}
+
+.sec1 h6 {
+    text-align: center;
+    font-size: .8em;
+    width: 150px;
+    padding: 0px 20px;
+}
+
+
+.fot-section {
+    position: relative;
+    margin-top: 50px;
+}
+
+.footerbanner {
+    position: relative;
+    width: 85%;
+    padding-right: 10px;
+    top: -80px;
+    position: absolute;
+    height: 100px;
+    margin: 20px 100px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+
+}
+
+.footerbanner .part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerbanner .part .icon {
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 4em;
+}
+
+.footerbanner .part .title {
+    position: absolute;
+    left: 100px;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerbanner .btn {
+    padding: 0px 2px 0px 12px;
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerbanner .btn button {
+    color: goldenrod;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 90%;
+    width: 40%;
+    cursor: pointer;
+    /* padding: 2px  8px; */
+}
+
+.footerbanner .btn .inputbtn {
+    border: none;
+    height: 95%;
+    color: rgb(192, 216, 216);
 }
