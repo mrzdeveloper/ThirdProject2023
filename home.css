@@ -202,20 +202,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98%;
+    width: 100%%;
 }
 
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
-    border: 1px solid red;
-    margin: 20px;
+    margin-bottom: 15px;
+
 }
 
 .card1 {
-    border: 1px solid red;
 
     border-radius: 10px;
     margin-top: 10px;
@@ -335,6 +333,21 @@
     padding: 20px 200px;
 }
 
+.pakage {}
+
+.pakage .pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 20px 200px;
+    width: 100%;
+}
+
 .pakage .pack .title-pack {}
 
 .pakage .pack .star-icons {
@@ -368,7 +381,11 @@
 
 /* .............................section C */
 .reffral-banner {
-    padding: 20px 400px;
+
+
+}
+
+.reffral-banner .xm {
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -477,14 +494,18 @@
     color: darkgoldenrod;
     margin-top: 5px;
     display: flex;
-    justify-content: first baseline;
+    justify-content: center;
     align-items: center;
 }
 
 .sec1 h1 {
-    font-size: 1em;
+    /* font-size: 1em; */
     text-align: center;
     margin-top: 50px;
+}
+.sec h2{
+    font-size: 1em;
+    text-align: center; 
 }
 
 .sec1 i {
@@ -493,17 +514,21 @@
     color: darkgoldenrod;
 }
 
-.sec1 h6 {
+/* .sec1 h6 {
     text-align: center;
     font-size: .8em;
     width: 150px;
     padding: 0px 20px;
-}
+} */
 
 
 .fot-section {
     position: relative;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footerbanner {
