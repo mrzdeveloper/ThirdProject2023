@@ -202,7 +202,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%%;
+    width: 100%;
 }
 
 .card {
@@ -380,10 +380,7 @@
 
 
 /* .............................section C */
-.reffral-banner {
-
-
-}
+.reffral-banner {}
 
 .reffral-banner .xm {
     height: 300px;
@@ -503,9 +500,10 @@
     text-align: center;
     margin-top: 50px;
 }
-.sec h2{
+
+.sec h2 {
     font-size: 1em;
-    text-align: center; 
+    text-align: center;
 }
 
 .sec1 i {
